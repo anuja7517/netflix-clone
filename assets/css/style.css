@@ -1,0 +1,42 @@
+.movieCard{
+    height: 100vh;
+    position: relative;
+
+}
+.movieCard img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.movieCard figcaption{
+    position: absolute;
+    left: 0;
+    top:0%;
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(0, 0, 0,.8), rgb(0, 0, 0,.6) 90%,transparent);
+    color: #fff;
+}
+
+.owl-prev,.owl-next {
+    position: absolute;
+    top: 50%;
+    font-size: 28px !important;
+    color: #fff !important;
+}
+.owl-prev {
+    left: 10px;
+}
+
+.owl-next{
+    right: 10px;
+
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
